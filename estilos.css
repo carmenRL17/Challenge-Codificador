@@ -1,0 +1,107 @@
+
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2.5px 2.5px  rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    margin: 24px auto;
+}
+.cuadro-Resul{
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    height: 550px;
+    left: 983px;
+    top: 29px;
+    background: #aaaaaa;
+    border-radius: 10px;
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    margin:auto;
+    display:block;
+}
+/* botones*/
+.cuadro-Resul button{
+    box-sizing: border-box;
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 8px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 10px;
+    width: 75px;
+    height: 25px;
+    margin:0px auto;   
+    font-size: 14px;
+    text-align: center;
+    line-height: 30%;    
+}
+.cuadro-Resul button:hover{
+    border-color: #c68c19;
+    font-size: 15px;
+}
+.cuadro-Resul button:active{
+    border-color: #088c19;
+}
+.cuadro-Resul p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #0d0c0c;
+    text-align: center;
+}
+.cuadro-Resul textarea{
+    width: 300px;
+    margin: 0 1.5%;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 350px;
+    min-height: 550px;
+}
+.contenedor button{
+    
+    display: inline;
+    padding: 15px;
+    width: 135px;
+    height: 30px;
+    background: #0a3871;
+    border-radius: 20px;
+    text-align: center;
+    font-style: normal;
+    font-size: 15px;
+    color: aliceblue;
+    border: 1px solid rgb(200, 152, 80); 
+    margin: 150px 12px 16px 16px;
+    line-height: 30%;
+    
+}
+.contenedor button:hover{
+    border-color: #c68c19;
+    font-size: 18px;
+}
+.contenedor button:active{
+    border-color: #088c19;
+}
+.contenedor textarea{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.margin-left-16{
+    margin-left: 16px;
+}
